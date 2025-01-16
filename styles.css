@@ -1,0 +1,146 @@
+body {
+  text-align: center;
+  background-color: #2D2D2D;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #000000;
+}
+#title{
+  color: #FDF6E3;
+}
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+  margin-top:60px;
+}
+
+.w {
+  background-image: url("./images/pubgwala.jpg");
+  background-size: 150px;
+}
+
+.a {
+  background-image: url("./images/Kehnakya.jpg");
+  background-size: 150px;
+}
+
+.s {
+  background-image: url("./images/rukojara.jpg");
+  background-size: 150px;
+}
+
+.d {
+  background-image: url("./images/gajjabbejjati.jpg");
+  background-size: 170px 170px;
+}
+
+.j {
+  background-image: url("./images/mazaaaya.jpg");
+  background-size: 150px;
+}
+
+.k {
+  background-image: url("./images/yedukh.jpg");
+  background-size: 250px;
+}
+
+.l {
+  background-image: url("./images/khatam.jpg");
+  background-size: 150px;
+}
+
+.set {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  text-indent: -99999px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.text{
+  margin-top: 5px; 
+  font-size: 1.2rem;
+  color: #DBEDF3;
+  font-family: 'Arvo', cursive;
+  text-shadow: 1px 1px #404B69; 
+  text-align: center; 
+  width: 100%; 
+  word-wrap: break-word; 
+}
+.drum-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; 
+  align-items: center; 
+  width: 150px; 
+  margin-left: 10px;
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .drum {
+    width: 120px;
+    height: 120px;
+  }
+
+  .text {
+    font-size: 0.8rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .drum {
+    width: 100px;
+    height: 100px;
+  }
+
+  .text {
+    font-size: 0.7rem;
+  }
+}
